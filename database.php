@@ -61,30 +61,6 @@
    
 
 
-   
-   
-   <!--====================================Ping Script================================--> 
-   <div id="Ping" style="display: none;">
-   <font color="#40FF1E">
-   
-  <?php
-   $output = shell_exec('ping 192.168.2.4');
-   echo "Shell: ". $output;
-
-  ?>
-  </font>
-  </div>
-   
-     <!--====================================END Ping  Script================================--> 
-  
-  
-   
-   
-   
-   
-   
-   
-
 
  <!--====================================Database Connection================================-->
 <font color="#40FF1E">
@@ -192,11 +168,6 @@ Retreiving Host Data!
 
 
 
- <div id="Div-Ping" align="center">
-<p id="p4">
-Pinging Host!
-</p>
-</div>
 
 </font>
 
