@@ -67,7 +67,7 @@
   
   <!-- ======================BLOG================================= -->
   
-<button id="btn3" onclick="window.location.href='DATABASE.php'">Continue</button>
+<button id="btn3" onclick="window.location.href='DATABASE2.php'">Administration</button>
 
 <script>
 function myFunction() {
