@@ -1,0 +1,234 @@
+/* Blog CSS */
+
+
+body{  
+     background-color:white;
+     background-image:url('images/wallpaper2.jpg');
+     background-repeat:no-repeat;
+     background-size:102%;
+     height:780px;
+     }
+
+form.blog{
+          position:relative;
+          left:-50px;
+          top:-75px;
+          background-image:url('images/image1.jpg');
+          background-repeat:no-repeat;
+          background-size:120%;
+          background-position:center;
+          border-style:solid;
+          border-radius:20%;
+          border-color:#FF8D2E;
+          border-width:8px;
+          opacity:0.6;
+          margin:10%;
+          width:40%;
+          height:330px;
+          font-family:fantasy;
+          color:#E8EBFF;
+          }
+
+#header{
+        background-image:url('images/header.jpg');
+        background-position:-18px;
+        position:absolute;
+        top:10px;
+        left:-8px;
+        margin:1px;
+        height:150px;
+        color:white;
+        position:relative;
+        border:6px; 
+        border-style:solid;
+        border-color:#FF8D2E;
+        border-radius:0%;
+        opacity:0.3;
+        width:100%;
+        }
+
+#footer{ 
+        background-image:url('images/banner.jpg');
+        position:absolute;
+        top:-190px;
+        left:-8px;
+        margin:1px;
+        height:140px;
+        color:white;
+        position:relative;
+        border:6px;
+        border-style:solid;
+        border-color:#FF8D2E;
+        border-radius:0%;
+        opacity:0.45;
+        width:100%;
+        }
+ 
+#footer1{ 
+         background-image:url('images/banner.jpg');
+         position:absolute;
+         top:-50px;
+         left:-8px;
+         margin:1px;
+         height:140px;
+         color:white;
+         position:relative;
+         border:6px;
+         border-style:solid;
+         border-color:#FF8D2E;
+         border-radius:0%;
+         opacity:0.45;
+         width:100%;
+         }
+ 
+ 
+table.table{
+            position:relative;
+            left:50px;
+            top:35px;
+            }
+ 
+td.bericht{
+           position:relative;
+           top:40px;
+           height:50px;
+          }
+  
+td.bericht1{
+            position:relative;
+            top:40px;
+           }
+
+#submit{
+        position:relative;
+        left:245px;
+        top:70px;
+        width:150px;
+        }
+ 
+ div.datab{
+           width:600px;
+           position:relative;
+           top:-550px;
+           left:680px;
+           background-color:white;
+           border-color:#FF8D2E;
+           border-width:6px;
+           border-style:solid;
+           }
+   
+div.datab2{
+           width:600px;
+           position:relative;
+           top:-575px;
+           left:380px;
+           background-color:white;
+           border-color:#FF8D2E;
+           border-width:6px;
+           border-style:solid;
+           }  
+   
+   
+#database{
+          position:relative;
+          left:-50px;
+          top:-75px;
+          background-image:url('images/image1.jpg');
+          background-repeat:no-repeat;
+          background-size:120%;
+          background-position:center;
+          border-style:solid;
+          border-radius:20%;
+          border-color:#FF8D2E;
+          border-width:8px;
+          opacity:0.6;
+          margin:10%;
+          width:40%;
+          height:330px;
+          font-family:fantasy;
+          color:#E8EBFF;
+          }
+
+          
+#database2{
+           position:relative;
+           left:-80px;
+           top:50px;
+           background-color:white;
+           background-image:url('images/image1.jpg');
+           background-repeat:no-repeat;
+           background-size:120%;
+           background-position:center;
+           border-style:solid;
+           border-radius:20%;
+           border-color:#FF8D2E;
+           border-width:8px;
+           opacity:0.6;
+           margin:10%;
+           width:40%;
+           height:330px;
+           font-family:fantasy;
+           color:#FFFFFF;
+           font-family:sans-serif;
+           font-size:18px;
+           }
+
+
+#data1{
+       position:relative;
+       top:-105px;
+       left:600px;
+       background-color:black;
+       color:black;
+       border-color:#FF8D2E;
+       border-width:8px;
+       max-height:100px;
+       overflow:scroll;
+       color:black;
+       font-family:serif;
+       }
+
+#by_blog{
+         position:relative;
+         left:200px;
+         top:150px;
+         opacity:0.5;
+         }
+ 
+ 
+ div.button{
+            position:relative; 
+            top:-190px;
+            left:150px;
+            }
+     
+#blog_b{
+position:relative;
+left:-1px;
+top:30px;
+
+ }       
+           
+#btn{
+position:relative;
+top:-30px;
+ }       
+ 
+ 
+form.blog2{
+position:relative;
+left:700px;
+top:-575px;
+ }
+ 
+ #btn2{
+ position:relative;
+ left:750px;
+ top:-600px;
+  }
+  
+   #btn3{
+ position:relative;
+ left:1000px;
+ top:-600px;
+  }
