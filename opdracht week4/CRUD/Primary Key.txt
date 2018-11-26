@@ -1,0 +1,35 @@
+                 The SQL 'PRIMARY KEY' Constraint:
+
+
+De PRIMARY KEY-voorwaarde identificeert op unieke wijze elk record in een tabel.
+
+Primaire sleutels moeten UNIEKE waarden bevatten en mogen geen NULL-waarden bevatten.
+
+Een tabel kan slechts één primaire sleutel bevatten, die uit enkele of meerdere velden kan bestaan.
+
+
+
+CREATE TABLE Persons (
+    ID int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    PRIMARY KEY (ID)
+);
+
+
+
+
+PRIMARY KEY constraint on multiple columns
+
+CREATE TABLE Persons (
+    ID int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    CONSTRAINT PK_Person PRIMARY KEY (ID,LastName)
+);
+
+
+
+

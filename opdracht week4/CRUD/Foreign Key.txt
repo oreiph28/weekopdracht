@@ -1,0 +1,31 @@
+                   SQL FOREIGN KEY Beperking
+
+
+Een FOREIGN KEY is een sleutel die wordt gebruikt om twee tabellen aan elkaar te koppelen.
+
+Een FOREIGN KEY is een veld (of een verzameling van velden) in een tabel dat verwijst naar de PRIMARY KEY in een andere tabel.
+
+De tabel met de externe sleutel wordt de onderliggende tabel genoemd en de tabel met de kandidaat-sleutel wordt de tabel waarnaar wordt verwezen of de bovenliggende tabel genoemd.
+
+
+
+CREATE TABLE Orders (
+    OrderID int NOT NULL,
+    OrderNumber int NOT NULL,
+    PersonID int,
+    PRIMARY KEY (OrderID),
+    FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
+);
+
+
+
+FOREIGN KEY constraint
+
+CREATE TABLE Orders (
+    OrderID int NOT NULL,
+    OrderNumber int NOT NULL,
+    PersonID int,
+    PRIMARY KEY (OrderID),
+    CONSTRAINT FK_PersonOrder FOREIGN KEY (PersonID)
+    REFERENCES Persons(PersonID)
+);
